@@ -16,11 +16,11 @@ public class prctical {
 		driver.get("http://127.0.0.1:5500/index.html");
 		System.out.println(driver.getTitle());
 		
-List <WebElement> myListOfOPtions = driver.findElements(By.tagName("option"));
+                List <WebElement> myListOfOPtions = driver.findElements(By.tagName("option"));
 
-for(int i=0; i< myListOfOPtions.size();i++) {
+                for(int i=0; i< myListOfOPtions.size();i++) {
 	
-	System.out.println(myListOfOPtions.get(i).getText());
+                	System.out.println(myListOfOPtions.get(i).getText());
 }
 
 	}
